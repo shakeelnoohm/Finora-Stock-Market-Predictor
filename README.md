@@ -132,19 +132,6 @@ src/
     ├── constants.ts          # NSE stock list, indices, colours
     ├── utils.ts              # INR formatting, cn helper
     └── types.ts              # Shared TypeScript interfaces
-```
-
----
-
-## Optional: Alpha Vantage API Key
-
-For additional fundamental data you can add an Alpha Vantage key in **Settings**. The app works fully without it.
-
-```env
-# .env.local
-ALPHA_VANTAGE_API_KEY=your_key_here
-```
-
 ---
 
 ## License
